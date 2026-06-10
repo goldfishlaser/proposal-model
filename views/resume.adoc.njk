@@ -1,0 +1,71 @@
+ifndef::backend-pdf[]
+image:https://mirrors.creativecommons.org/presskit/icons/cc.svg[{{license}}] image:https://img.shields.io/badge/View%20on-GitHub-orange[View on GitHub, link={{homepage}}] 
+endif::[]
+
+== {{ full_name }}
+
+[%hardbreaks]
+{{ phone_number }}
+{{ email_address }}
+
+{{ headline }}
+
+{% if (skills_summmary | length) > 0 %}
+=== Skill Summary
+
+[%hardbreaks]
+{% for skill in skills_summary %}
+- {{ skill }}
+{% endfor %}
+{% endif %}
+
+{% if (tools_proficiency | length) > 0 %}
+.Tools Proficiency
+--
+{% for tool in tools_proficiency %}
+- {{ tool }}
+{% endfor %}
+--
+{% endif %}
+
+{% if (professional_experience | length) > 0 %}
+=== Professional Experience
+
+{% for experience in professional_experience %}
+
+==== {{ experience.organization }} | _{{ experience.start_date }} - {{ experience.end_date }}_
+
+**{{ experience.role_title }}**
+
+{{ experience.summary }}
+
+{% endfor %}
+{% endif %}
+
+{% if (educational_experience | length) > 0 %}
+=== Education
+
+{% for education in educational_experience %}
+
+==== {{ education.organization }} | _{{ education.start_date }} - {{ education.end_date }}_
+
+{{ education.cert_name }}
+
+{{ education.summary }}
+
+{% endfor %}
+{% endif %}
+
+{% if (volunteer_experience | length) > 0 %}
+=== Volunteering
+
+{% for volunteer in volunteer_experience %}
+
+==== {{ volunteer.organization }} | _{{ volunteer.start_date }} - {{ volunteer.end_date }}_
+
+**{{ volunteer.role_title }}**
+
+{{ volunteer.summary }}
+
+{% endfor %}
+{% endif %}
