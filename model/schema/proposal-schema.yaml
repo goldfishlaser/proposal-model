@@ -1,8 +1,8 @@
 id: https://w3id.org/linkml/examples/personinfo
-name: resume-model-schema
-title: Resume Model Schema
+name: proposal-model-schema
+title: Proposal Model Schema
 description: |-
-  Schema for a resume
+  Schema for a proposal
 prefixes:                                 
   linkml: https://w3id.org/linkml/
 imports:
