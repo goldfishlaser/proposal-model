@@ -1,4 +1,4 @@
-# resume-model
+# proposal-model
 
 m30ml example project for rendering a resume
 
@@ -15,7 +15,7 @@ npm i
 
 ## Generate your resume
 
-This repository includes an example file named `model/resume-model.yaml` you can use to generate your resume.
+This repository includes an example file named `model/proposal-model.yaml` you can use to generate your proposal.
 
 After replacing the content with your own, use 
 
@@ -23,8 +23,8 @@ After replacing the content with your own, use
 npm run build
 ```
 
-Your generated resume will appear in `build/resume.adoc`.
+Your generated proposal will appear in `build/proposal.adoc`.
 
 ## Edit the view
 
-Nunjucks generates the view as an AsciiDoc file. To make changes to the view, such as section titles and the order thereof, you can edit `view/resume.adoc.njk`. 
+Nunjucks generates the view as an AsciiDoc file. To make changes to the view, such as section titles and the order thereof, you can edit `view/proposal.adoc.njk`. 
