@@ -1,9 +1,9 @@
 full_name: Jane Smith
 phone_number: 555-555-5555
 email_address: jane.smith@email.com
-headline: This resume will be transformed to a proposal after I edit the model. 
+headline: This proposal will be transformed to a proposal after I edit the model. 
 skills_summary: 
-- Writing resumes.
+- Writing proposals.
 - Proficient with various markup formats.
 - Converting structured plain text documents into PDF.
 
@@ -19,11 +19,11 @@ tools_proficiency:
 - nunjucks
 
 professional_experience:
-- organization: Fantasy Resumes, Inc.
-  role_title: Resume Fairy
+- organization: Fantasy proposals, Inc.
+  role_title: proposal Fairy
   start_date: October 2016
   end_date: Present
-  summary: Provide resumes that clients dream up under their pillows while they sleep. This involves deciphering each client’s dream with specialized tools and producing it for the client before she or he wakes. To accomplish this a template is used to convert structured plain text into a nice looking resume.
+  summary: Provide proposals that clients dream up under their pillows while they sleep. This involves deciphering each client’s dream with specialized tools and producing it for the client before she or he wakes. To accomplish this a template is used to convert structured plain text into a nice looking proposal.
 - organization: Curriculum Vitae, LLC
   role_title: Word Smith
   start_date: July 2004 
@@ -36,10 +36,10 @@ professional_experience:
   summary: Analyzed the quality of curriculum vitae produced by the word smiths. Documents that contained errors and typos were sent back for corrections.
 
 educational_experience:
-  - organization: Resume University 
+  - organization: proposal University 
     start_date: September 2000 
     end_date: August 2004 
-    cert_name: Bachelor’s degree in resume writing
+    cert_name: Bachelor’s degree in proposal writing
     summary: Graduated with honors
   - organization: Plain Text High School 
     start_date: September 1996

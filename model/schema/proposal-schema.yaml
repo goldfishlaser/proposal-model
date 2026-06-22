@@ -43,7 +43,7 @@ classes:
 slots:
   full_name:
     description: >-
-      Name of the person creating resume
+      Name of the person creating proposal
   role_title:
     description: >-
       Role 
@@ -52,13 +52,13 @@ slots:
       Name of degree or certification 
   phone_number:
     description: >-
-      Phone number of the person creating resume
+      Phone number of the person creating proposal
   headline:
     description: >-
-      Headline of the person creating resume           
+      Headline of the person creating proposal           
   email_address:
     description: >-
-      Email address of the person creating resume 
+      Email address of the person creating proposal 
   skills_summary:
     description: >-
       List of skills e.g. "Copywriting"

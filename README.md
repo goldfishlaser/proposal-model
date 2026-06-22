@@ -1,6 +1,6 @@
 # proposal-model
 
-m30ml example project for rendering a resume
+m30ml example project for rendering a proposal
 
 ## Requirements
 - npm
@@ -13,7 +13,7 @@ m30ml example project for rendering a resume
 npm i
 ```
 
-## Generate your resume
+## Generate your proposal
 
 This repository includes an example file named `model/proposal-model.yaml` you can use to generate your proposal.
 
